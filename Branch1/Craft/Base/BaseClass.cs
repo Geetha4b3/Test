@@ -25,6 +25,7 @@ namespace Craft.Base
             IWebElement element = driver.FindElement(By.Id("target"));
             element.Click();
             element.Click();
+            element.Click();
         }
 
         [TearDown]
